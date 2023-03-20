@@ -1,0 +1,14 @@
+.wrapper {
+  background-color: #fff;
+  height: 100vh;
+
+  .sidebar-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('../../../assets/img/yunus2.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+}
