@@ -1,4 +1,7 @@
-.container-fluid  {
-  background-color: #f7f7f7;
-  min-height: 100vh;
+
+.text-rotate {
+  display: flex;
+  align-items: end;
+  transform: rotate(90deg);
+  height: 150px;
 }

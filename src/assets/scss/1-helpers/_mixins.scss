@@ -9,7 +9,7 @@
   }
 }
 
-@for $i from 10 through 40 {
+@for $i from 10 through 200 {
   .fs-#{$i} {
     font-size: $i + px;
   }
