@@ -32,3 +32,13 @@ main {
   grid-area: main;
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "main";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+}

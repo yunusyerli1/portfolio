@@ -10,7 +10,6 @@
       <ng-container *ngFor="let item of menuItems">
           <li class="more-button-list-item" *ngIf="item.status === true">
             <a [routerLink]="item.link">
-              <!-- <i [className]="item.icon"></i> -->
               <app-svg-image [width]="'20px'" [height]="'20px'" [iconName]="item.icon" [color]="'black'"></app-svg-image>
               <span>{{item.title}}</span>
             </a></li>
