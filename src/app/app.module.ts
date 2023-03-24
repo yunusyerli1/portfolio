@@ -13,6 +13,7 @@ import { SvgImageComponent } from './components/svg-image/svg-image.component';
 import { ButtonHireComponent } from './components/button-hire/button-hire.component';
 import { PortfolioComponent } from './views/portfolio/portfolio.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
+import { SidebarResponsiveComponent } from './containers/sidebar-responsive/sidebar-responsive.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NotFoundComponent } from './views/not-found/not-found.component';
     SvgImageComponent,
     ButtonHireComponent,
     PortfolioComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SidebarResponsiveComponent
   ],
   imports: [
     BrowserModule,

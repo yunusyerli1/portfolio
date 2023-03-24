@@ -5,9 +5,10 @@ import { Component, Input } from '@angular/core';
   templateUrl: './svg-image.component.html',
   styleUrls: ['./svg-image.component.scss']
 })
-export class SvgImageComponent {
+export class SvgImageComponent{
 
-  @Input() width:string = '24px';
-  @Input() height:string = '24px';
-  @Input() source:string = '../../../assets/svg/angle-double-right.svg';
+  @Input() width:string = '20px';
+  @Input() height:string = '20px';
+  @Input() iconName:string = 'angle-double-right';
+  @Input() color:string = '';
 }

@@ -1,9 +1,14 @@
 <div class="grid-container">
-  <div class="sidebar">
+  <div class="d-none d-md-block  sidebar">
     <app-sidebar></app-sidebar>
+
   </div>
+
   <div class="main">
     <router-outlet></router-outlet>
+    <div class="d-md-none responsiveButton">
+      <app-sidebar-responsive [menuItems]="sideMenu"></app-sidebar-responsive>
+  </div>
   </div>
 
 </div>
