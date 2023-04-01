@@ -4,12 +4,12 @@ a {
 }
 
 a.clickable {
-  color: $primaryHover;
+  color: $secondary;
   cursor: pointer;
 }
 
 a.clickable:hover {
-  color: $primaryHover;
+  color: $secondary;
   text-decoration: underline;
 }
 
@@ -19,5 +19,10 @@ ul {
 }
 
 ul li::marker {
-  color: $primaryHover;
+  color: $secondary;
 }
+
+.cpointer {
+  cursor: pointer;
+}
+
