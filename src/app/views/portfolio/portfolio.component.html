@@ -1,14 +1,18 @@
 <div class="container">
-  <div class="row pb-5">
+  <div class="row">
    <div class="col-12 d-flex justify-content-end">
     <app-button-hire></app-button-hire>
    </div>
   </div>
-  <div class="row mt-5">
+  <div class="row mt-4">
     <div class="col-12">
       <p class="fw-bold fs-24">I Build <span class="text-secondary primary-hover">Apps</span> & <span class="text-secondary">Websites</span></p>
-      <app-card></app-card>
-      <a href="" class="text-info warning-hover">Yunus</a>
+    </div>
+
+    <div class="col-12 d-flex flex-wrap gap-4">
+      <div *ngFor="let project of projectList">
+        <app-card [cardItem]="project"></app-card>
+      </div>
     </div>
   </div>
 

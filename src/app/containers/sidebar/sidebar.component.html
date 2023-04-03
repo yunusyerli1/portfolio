@@ -4,11 +4,23 @@
     <span class="fw-bold mt-4">Yunus Yerli</span>
     <p>Sortware Engineer</p>
     <div class="d-flex flex-column gap-3 mt-5">
-      <a routerLink="/home"><span>Home</span><app-svg-image></app-svg-image></a>
-      <a routerLink="/portfolio"><span>Portfolio</span><app-svg-image></app-svg-image></a>
-      <a routerLink="/service"><span>Service</span><app-svg-image></app-svg-image></a>
-      <a routerLink="/skills"><span>Skills</span><app-svg-image></app-svg-image></a>
-      <a routerLink="/contact"><span>Contact</span><app-svg-image></app-svg-image></a>
+      <a routerLink="/home" class="secondary-hover">
+        <span>Home</span>
+        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image>
+      </a>
+      <a routerLink="/portfolio" class="secondary-hover">
+        <span>Portfolio</span>
+        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image>
+      </a>
+      <a routerLink="/service" class="secondary-hover">
+        <span>Service</span>
+        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image></a>
+      <a routerLink="/skills" class="secondary-hover">
+        <span>Skills</span>
+        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image></a>
+      <a routerLink="/contact" class="secondary-hover">
+        <span>Contact</span>
+        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image></a>
     </div>
 
     <ul class="d-flex gap-1 circle-icon-menu">
