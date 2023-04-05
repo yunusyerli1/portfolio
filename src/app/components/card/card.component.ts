@@ -8,6 +8,14 @@ import { Component, Input } from '@angular/core';
 export class CardComponent {
 
   @Input() cardItem:any;
+  @Input() imgSetting:any = {
+    height: 190,
+    width: 286
+  };
+  @Input() klass:any;
 
+  getClass() {
+    return this.klass;
+  }
 
 }

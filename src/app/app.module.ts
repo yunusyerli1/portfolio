@@ -15,6 +15,8 @@ import { PortfolioComponent } from './views/portfolio/portfolio.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
 import { SidebarResponsiveComponent } from './containers/sidebar-responsive/sidebar-responsive.component';
 import { CardComponent } from './components/card/card.component';
+import { ServiceComponent } from './views/service/service.component';
+import { SkillComponent } from './views/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CardComponent } from './components/card/card.component';
     PortfolioComponent,
     NotFoundComponent,
     SidebarResponsiveComponent,
-    CardComponent
+    CardComponent,
+    ServiceComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,

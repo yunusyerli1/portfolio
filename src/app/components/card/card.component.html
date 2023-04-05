@@ -1,9 +1,11 @@
 <div class="card" style="width: 18rem;">
-  <img [src]="cardItem.image" class="card-img-top" alt="..." width="286px" height="190px">
+  <div class="image-setting" [ngClass]="getClass()">
+    <img [src]="cardItem.image" class=""  alt="..." [width]="imgSetting.width" [height]="imgSetting.height" >
+  </div>
   <div class="card-body">
     <h5 class="card-title">{{cardItem.title}}</h5>
     <p class="card-text">{{cardItem.text}}</p>
-    <div class="float-end">
+    <div class="float-end" *ngIf="cardItem.link">
       <a [href]="cardItem.link" target="_blank" class="btn btn-secondary">
         <app-svg-image [iconName]="'arrow-right-line'"></app-svg-image>
       </a>

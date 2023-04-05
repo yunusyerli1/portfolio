@@ -6,12 +6,12 @@
   </div>
   <div class="row mt-4">
     <div class="col-12">
-      <p class="fw-bold fs-24">I Build <span class="text-secondary primary-hover">Apps</span> & <span class="text-secondary">Websites</span></p>
+      <p class="fw-bold fs-24">Expertise in <span class="text-secondary primary-hover">Front-End Web Development</span></p>
     </div>
 
     <div class="col-12 d-flex flex-wrap gap-4 mb-4">
-      <div *ngFor="let project of projectList">
-        <app-card [cardItem]="project" [imgSetting]="imageSetting"></app-card>
+      <div *ngFor="let project of serviceList">
+        <app-card [cardItem]="project" [imgSetting]="imageSetting" [klass]="'image-center'"></app-card>
       </div>
     </div>
   </div>

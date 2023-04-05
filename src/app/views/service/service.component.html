@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+   <div class="col-12 d-flex justify-content-end">
+    <app-button-hire></app-button-hire>
+   </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-12">
+      <p class="fw-bold fs-24">I Craft <span class="text-secondary primary-hover">Innovative User Experiences</span> with <span class="text-secondary">Code</span></p>
+    </div>
+
+    <div class="col-12 d-flex flex-wrap gap-4 mb-4">
+      <div *ngFor="let project of serviceList">
+        <app-card [cardItem]="project" [imgSetting]="imageSetting" [klass]="'image-center'"></app-card>
+      </div>
+    </div>
+  </div>
+
+</div>
