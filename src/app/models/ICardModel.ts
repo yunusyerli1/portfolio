@@ -4,7 +4,3 @@ export interface ICardList {
   image: string,
   link?: string,
 }
-
-export interface Test {
-
-}
