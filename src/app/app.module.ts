@@ -17,6 +17,7 @@ import { SidebarResponsiveComponent } from './containers/sidebar-responsive/side
 import { CardComponent } from './components/card/card.component';
 import { ServiceComponent } from './views/service/service.component';
 import { SkillComponent } from './views/skill/skill.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SkillComponent } from './views/skill/skill.component';
     SidebarResponsiveComponent,
     CardComponent,
     ServiceComponent,
-    SkillComponent
+    SkillComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
