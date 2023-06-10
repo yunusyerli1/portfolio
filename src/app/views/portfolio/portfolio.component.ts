@@ -35,7 +35,7 @@ export class PortfolioComponent {
     {
       title: "Alsayyed Design",
       text:  "Web Development",
-      image: "../../../assets/img/alsayyeddesign.png",
+      image: "../../../assets/img/alsayyeddesign.jpg",
       link: "https://alsayyeddesign.com/"
     },
     {
