@@ -1,5 +1,5 @@
-<div class="card" style="width: 18rem;">
-  <div class="image-setting" [ngClass]="getClass()">
+<div class="card" [ngClass]="getContainerClass()">
+  <div class="image-setting" >
     <img [src]="cardItem.image" class=""  alt="..." [width]="imgSetting.width" [height]="imgSetting.height" >
   </div>
   <div class="card-body">

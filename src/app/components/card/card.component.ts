@@ -14,7 +14,7 @@ export class CardComponent {
   };
   @Input() klass:any;
 
-  getClass() {
+  getContainerClass() {
     return this.klass;
   }
 

@@ -54,16 +54,16 @@ export class ServiceComponent {
       text:  "Work closely with clients to understand their website goals and help them achieve them",
       image: "../../../assets/icon/problem-solving.png"
     },
-    {
-      title: "Transforming websites into marketing tools",
-      text:  "Develop websites that are effective marketing tools, using best practices and creative techniques",
-      image: "../../../assets/icon/blueprint.png"
-    },
-    {
-      title: "Visually striking and functional designs",
-      text:  "Design websites that are not only visually appealing but also fully functional and user-friendly",
-      image: "../../../assets/icon/styled-components.png"
-    }
+    // {
+    //   title: "Transforming websites into marketing tools",
+    //   text:  "Develop websites that are effective marketing tools, using best practices and creative techniques",
+    //   image: "../../../assets/icon/blueprint.png"
+    // },
+    // {
+    //   title: "Visually striking and functional designs",
+    //   text:  "Design websites that are not only visually appealing but also fully functional and user-friendly",
+    //   image: "../../../assets/icon/styled-components.png"
+    // }
 
   ];
 

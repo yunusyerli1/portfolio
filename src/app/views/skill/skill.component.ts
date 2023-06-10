@@ -54,16 +54,16 @@ export class SkillComponent {
       text:  "Stay up-to-date with the latest website development trends and technologies",
       image: "../../../assets/icon/styled-components.png"
     },
-    {
-      title: "Effective communication and collaboration",
-      text:  "Skilled in communicating with clients and collaborating with members of the team",
-      image: "../../../assets/icon/agree.png"
-    },
-    {
-      title: "Dedicated to high-quality code/designs",
-      text:  "Committed to producing code and designs that are of the highest quality and meet clients' needs",
-      image: "../../../assets/icon/data-ai.png"
-    }
+    // {
+    //   title: "Effective communication and collaboration",
+    //   text:  "Skilled in communicating with clients and collaborating with members of the team",
+    //   image: "../../../assets/icon/agree.png"
+    // },
+    // {
+    //   title: "Dedicated to high-quality code/designs",
+    //   text:  "Committed to producing code and designs that are of the highest quality and meet clients' needs",
+    //   image: "../../../assets/icon/data-ai.png"
+    // }
 
   ];
 
