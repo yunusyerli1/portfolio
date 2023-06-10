@@ -11,3 +11,11 @@
     font-size: calc(1vw + 5rem);
   }
 }
+
+.background {
+  background-image: url("../../../assets/img/close.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}

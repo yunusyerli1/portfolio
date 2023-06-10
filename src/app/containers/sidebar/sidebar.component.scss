@@ -1,7 +1,10 @@
+@import '../../../assets/scss/1-helpers/variables';
+
 .sidebar-container {
   position: fixed;
   background-color: #fff;
   height: 100vh;
+  width: $sidebar-width;
 
   .sidebar-image {
     width: 200px;
