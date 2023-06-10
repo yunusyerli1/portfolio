@@ -24,7 +24,7 @@ export class PortfolioComponent {
       title: "Gaboras",
       text:"Web Development",
       image: "../../../assets/img/gaboras.jpg",
-      link: "https://www.gaboras.com.tr",
+      link: "https://gaboras.com.tr",
     },
     {
       title: "Gaboras Mobile",
