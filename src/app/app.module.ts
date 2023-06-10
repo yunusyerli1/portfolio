@@ -18,6 +18,7 @@ import { CardComponent } from './components/card/card.component';
 import { ServiceComponent } from './views/service/service.component';
 import { SkillComponent } from './views/skill/skill.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ContactComponent } from './views/contact/contact.component';
     CardComponent,
     ServiceComponent,
     SkillComponent,
-    ContactComponent
+    ContactComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
