@@ -20,14 +20,14 @@ export class SkillComponent {
       image: "../../../assets/icon/vector.png"
     },
     {
+      title: "Expertise in Angular",
+      text:  "Skilled in using front-end frameworks to develop complex, interactive web applications especially in Angular",
+      image: "../../../assets/icon/angular.png"
+    },
+    {
       title: "Expertise in developing responsive websites",
       text:"Able to design and develop websites that are optimized for viewing on different devices",
       image: "../../../assets/icon/responsive.png"
-    },
-    {
-      title: "Expertise in front-end frameworks",
-      text:  "Skilled in using front-end frameworks to develop complex, interactive web applications",
-      image: "../../../assets/icon/angular.png"
     },
     {
       title: "UI/UX design principles knowledge",
@@ -53,17 +53,7 @@ export class SkillComponent {
       title: "Up-to-date with industry trends",
       text:  "Stay up-to-date with the latest website development trends and technologies",
       image: "../../../assets/icon/styled-components.png"
-    },
-    // {
-    //   title: "Effective communication and collaboration",
-    //   text:  "Skilled in communicating with clients and collaborating with members of the team",
-    //   image: "../../../assets/icon/agree.png"
-    // },
-    // {
-    //   title: "Dedicated to high-quality code/designs",
-    //   text:  "Committed to producing code and designs that are of the highest quality and meet clients' needs",
-    //   image: "../../../assets/icon/data-ai.png"
-    // }
+    }
 
   ];
 
