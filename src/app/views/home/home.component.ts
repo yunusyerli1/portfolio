@@ -21,7 +21,7 @@ export class HomeComponent {
     },
     {
       title: "Contact",
-      route: "/service",
+      route: "/contact",
       isFeatured: true
     },
 

@@ -21,7 +21,7 @@ export class NotFoundComponent {
     },
     {
       title: "Contact",
-      route: "/service",
+      route: "/contact",
       isFeatured: true
     },
 

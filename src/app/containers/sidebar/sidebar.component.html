@@ -3,24 +3,11 @@
     <div class="sidebar-image"></div>
     <span class="fw-bold mt-4">Yunus Yerli</span>
     <p>Frontend Developer</p>
-    <div class="d-flex flex-column gap-3 mt-5">
-      <a routerLink="/home" class="secondary-hover">
-        <span>Home</span>
+    <div class="d-flex flex-column gap-3 mt-5" >
+      <a [routerLink]="item.route" routerLinkActive="active-link" class="secondary-hover" *ngFor="let item of menuItems">
+        <span>{{item.title}}</span>
         <app-svg-image [iconName]="'angle-double-right'"></app-svg-image>
       </a>
-      <a routerLink="/portfolio" class="secondary-hover">
-        <span>Portfolio</span>
-        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image>
-      </a>
-      <a routerLink="/service" class="secondary-hover">
-        <span>Service</span>
-        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image></a>
-      <a routerLink="/skills" class="secondary-hover">
-        <span>Skills</span>
-        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image></a>
-      <a routerLink="/contact" class="secondary-hover">
-        <span>Contact</span>
-        <app-svg-image [iconName]="'angle-double-right'"></app-svg-image></a>
     </div>
 
     <ul class="d-flex gap-1 circle-icon-menu">

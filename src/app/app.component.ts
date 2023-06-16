@@ -10,39 +10,29 @@ export class AppComponent {
 
   sideMenu = [
     {
-      id: 1,
       title: "Home",
       icon: "home",
-      link: "home",
-      status: true
+      route: "home"
     },
     {
-      id: 2,
       title: "Portfolio",
       icon: "bag",
-      link: "portfolio",
-      status: true
+      route: "portfolio"
     },
     {
-      id: 3,
       title: "Service",
       icon: "wrench",
-      link: "service",
-      status: true
+      route: "service"
     },
     {
-      id: 4,
       title: "Skills",
       icon: "database",
-      link: "skills",
-      status: true
+      route: "skills"
     },
     {
-      id: 5,
       title: "Contact",
       icon: "postcard",
-      link: "contact",
-      status: true
+      route: "contact"
     }
   ]
 }
