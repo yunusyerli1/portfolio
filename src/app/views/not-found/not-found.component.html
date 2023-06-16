@@ -1,18 +1,8 @@
 <div class="wrapper">
 
   <div class="stars">
-      <div class="custom-navbar">
-
-          <div class="navbar-links">
-              <ul>
-                <li><a routerLink="/home">About</a></li>
-                <li><a routerLink="/portfolio">Portfolio</a></li>
-                <li><a routerLink="/contact" class="btn-request">Contact</a></li>
-              </ul>
-          </div>
-      </div>
+      <app-navbar [navItems]="menuItems"></app-navbar>
       <div class="central-body">
-           <!-- <img class="image-404" src="http://salehriaz.com/404Page/img/404.svg" width="300px"> -->
            <span class="text-404">404</span>
            <span class="subtext-404">LOOKS LIKE YOU ARE</span>
            <span class="subtext-404">LOST IN SPACE</span>
@@ -22,7 +12,7 @@
       <div class="objects">
           <img class="object_rocket" src="../../../assets/svg/rocket.svg" width="40px">
           <div class="earth-moon">
-              <img class="object_earth" src="../../../assets/svg/earth.svg" width="100px">
+              <img class="object_earth " src="../../../assets/svg/earth.svg" width="100px">
               <img class="object_moon" src="../../../assets/svg/moon.svg" width="80px">
           </div>
           <div class="box_astronaut">

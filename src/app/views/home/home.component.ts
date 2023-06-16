@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { INavbar } from 'src/app/models/INavbar';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+
+  menuItems:INavbar[] = [
+    {
+      title: "Skills",
+      route: "/skills",
+      isFeatured: false
+    },
+    {
+      title: "Portfolio",
+      route: "/portfolio",
+      isFeatured: false
+    },
+    {
+      title: "Contact",
+      route: "/service",
+      isFeatured: true
+    },
+
+  ]
 
 }

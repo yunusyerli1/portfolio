@@ -43,20 +43,6 @@ export class AppComponent {
       icon: "postcard",
       link: "contact",
       status: true
-    },
-    {
-      id: 6,
-      title: "About",
-      icon: "dashboard",
-      link: "about",
-      status: true
-    },
-    {
-      id: 6,
-      title: "Features",
-      icon: "angle-double-right",
-      link: "features",
-      status: true
-    },
+    }
   ]
 }
