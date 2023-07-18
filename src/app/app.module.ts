@@ -20,6 +20,9 @@ import { SkillComponent } from './views/skill/skill.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { MapComponent } from './components/map/map.component';
 import { NavbarComponent } from './containers/navbar/navbar.component';
+import { ContactFormComponent } from './containers/contact-form/contact-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormErrorsComponent } from './containers/form-errors/form-errors.component';
 
 @NgModule({
   declarations: [
@@ -36,13 +39,16 @@ import { NavbarComponent } from './containers/navbar/navbar.component';
     SkillComponent,
     ContactComponent,
     MapComponent,
-    NavbarComponent
+    NavbarComponent,
+    ContactFormComponent,
+    FormErrorsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
+    ReactiveFormsModule,
     AngularSvgIconModule.forRoot()
   ],
   providers: [],
